@@ -124,7 +124,7 @@ namespace ConsoleApp8
             {
                 aufpreis = 0;
             }
-            //Berechnung der mtl. Leasingrate und Gesamleasingrate  
+            //Berechnung der mtl. Leasingrate und GesamtLpreis
             leasingRate = basisrate + aufpreis - rabatt;
             gesamtLpreis = leasingRate * Laufzeit;
 
